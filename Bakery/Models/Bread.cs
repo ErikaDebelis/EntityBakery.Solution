@@ -15,8 +15,8 @@ namespace Bakery.Models
     }
     public int CalculateBreadTotalCost()
     {
-      BreadTotal.breadOrderCost = BreadTotal.singleLoafCost * BreadTotal.NumOfLoaves;
-      return BreadTotal.breadOrderCost;
+      breadOrderCost = singleLoafCost * NumOfLoaves;
+      return breadOrderCost;
     }
   }
 }

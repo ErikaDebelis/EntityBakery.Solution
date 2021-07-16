@@ -1,7 +1,4 @@
 using System.Collections.Generic;
-using System;
-using Bakery.Models.Bread;
-
 namespace Bread.Models
 {
   public class Program
