@@ -19,7 +19,7 @@
     ``$ dotnet run``
 4. Create a '.env' file in your root directory
     ``$ touch .env``
-####_To run tests_####
+#### _To run tests_ ####
 1. To run/review tests navigate to the (TEST CODE FOLDER NAME)
 2. Run "dotnet test" in the terminal to create and launch the application!
     ``$dotnet test``
