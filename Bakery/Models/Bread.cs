@@ -2,11 +2,21 @@
 
 namespace Bakery
 {
-    class Program
+  class Bread
+  {
+    public int NumOfLoaves { get; set; }
+
+    public static int BreadTotal(int inputtedBreadOrder) //method
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
+      NumOfLoaves = inputtedBreadOrder;
+      int breadOrderCost = 0; //starting value is 0- will add to this to get bread total cost
+      int singleLoafCost = 5;
     }
+    public int CalculateBreadTotalCost()
+    {
+      BreadTotal.breadOrderCost = singleLoafCost * NumOfLoaves;
+      return breadOrderCost;
+    }
+  }
 }
+
