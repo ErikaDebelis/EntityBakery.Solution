@@ -1,11 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace Bakery.Models
+﻿namespace Bakery.Breads
 {
   public class Bread
   {
     public int NumOfLoaves { get; set; }
+    public int CostOfLoaf {get; set; }
+    public int BreadDiscount {get; set; }
 
     public static int BreadTotal(int inputtedBreadOrder) //method
     {
