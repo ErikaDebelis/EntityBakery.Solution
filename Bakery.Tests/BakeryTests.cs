@@ -3,16 +3,17 @@ using System.Collections.Generic;
 using System;
 using Bakery.Models;
 
-namespace Bakery.Tests
+
+namespace BakeryTests
 {
   [TestClass]
-  public class BreadTests
+  public class BakeryTests
   {
     [TestMethod]
-    public void CreateConstructor_InitializesBreadTotalCostCorrectly()
+    public void BreadConstructor_InitializesBread_Bread()
     {
-      Bread breadOrder = new Bread(3);
-      Assert.AreEqual();
+      Bread newBreadOrder = new Bread();
+      Assert.AreEqual(typeof(bread), newBreadOrder.GetType());
     }
   }
 }

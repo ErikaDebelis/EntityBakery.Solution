@@ -1,8 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
 
-namespace Bakery
+namespace Bakery.Models
 {
-  class Bread
+  public class Bread
   {
     public int NumOfLoaves { get; set; }
 
@@ -14,8 +15,8 @@ namespace Bakery
     }
     public int CalculateBreadTotalCost()
     {
-      BreadTotal.breadOrderCost = singleLoafCost * NumOfLoaves;
-      return breadOrderCost;
+      BreadTotal.breadOrderCost = BreadTotal.singleLoafCost * BreadTotal.NumOfLoaves;
+      return BreadTotal.breadOrderCost;
     }
   }
 }
