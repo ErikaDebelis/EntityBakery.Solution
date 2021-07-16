@@ -22,7 +22,7 @@ namespace Bakery.Pastries
     // {
     //   NumOfPastries = inputtedBreadOrder;
     //   int pastryOrderCost = 0; //starting value is 0- will add to this to get pastry total cost
-    //   int singlePastryCost = 5;
+    //   int singlePastryCost = 2;
     //   int pastryDiscount = 0// starting value is 0- will add to this to get pastry total discount amount
     // }
     // public int CalculateBreadTotalCost()
@@ -32,11 +32,13 @@ namespace Bakery.Pastries
     // }
     // public int PastriesDiscounted()
     // {
-      //int freePastry = NumOfPastries / 3;
-      //PastriesDiscounted = (NumOfPastries - freePastry) * singlePastryCost;
+      //int discountedPastryCost = NumOfPastries / 3;
+      //PastriesDiscounted = (NumOfPastries * singlePastryCost) - discountedPastryCost ;
     // }
 
-  //buy 2 get 1 free:
-  //Total cost =2x
-  //Discount =3x−2x=x
-  //Discount percentage =x/(3x)=0.333=33 1/3%
+//Buy 1 for \$2 or 3 for $5.
+
+//3x = 5
+//x = 1.66666
+//  10pastries/ 3 = 3 1/3
+//  10pastries - 3 1/3 = 6.6666667

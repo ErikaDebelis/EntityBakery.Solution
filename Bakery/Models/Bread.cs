@@ -30,3 +30,13 @@ namespace Bakery.Breads
     //   breadOrderCost = singleLoafCost * NumOfLoaves;
     //   return breadOrderCost;
     // }
+      // public int LoavesDiscounted()
+    // {
+      //int freeLoaf = NumOfLoaves / 3;
+      //LoavesDiscounted = (NumOfLoaves - freeLoaf) * singleLoafCost;
+    // }
+
+  //buy 2 get 1 free:
+  //Total cost =2x
+  //Discount =3x−2x=x
+  //Discount percentage =x/(3x)=0.333= 33 1/3%
