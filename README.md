@@ -1,6 +1,6 @@
-# (Application Name)
+# Pierre's Bakery
 
-(Brief Description of Application)
+A console web application that allows you to choose between bread an pastries to order- choose the quantity and feel free to take advantage of our item specific discounts!
 
 #### Authored by Erika Debelis
 

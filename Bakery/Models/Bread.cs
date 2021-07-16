@@ -23,6 +23,7 @@ namespace Bakery.Breads
     //   NumOfLoaves = inputtedBreadOrder;
     //   int breadOrderCost = 0; //starting value is 0- will add to this to get bread total cost
     //   int singleLoafCost = 5;
+    //   int BreadDiscount = 0// starting value is 0- will add to this to get bread total discount amount
     // }
     // public int CalculateBreadTotalCost()
     // {
