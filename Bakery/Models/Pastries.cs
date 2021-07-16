@@ -25,7 +25,7 @@ namespace Bakery.Pastries
     //   int singlePastryCost = 2;
     //   int pastryDiscount = 0// starting value is 0- will add to this to get pastry total discount amount
     // }
-    // public int CalculateBreadTotalCost()
+    // public int CalculatePastryTotalCost()
     // {
     //   pastryOrderCost = singlepastryCost * NumOfPastries;
     //   return pastryOrderCost;
@@ -37,7 +37,6 @@ namespace Bakery.Pastries
     // }
 
 //Buy 1 for \$2 or 3 for $5.
-
 //3x = 5
 //x = 1.66666
 //  10pastries/ 3 = 3 1/3
