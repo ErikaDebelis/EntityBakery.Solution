@@ -12,6 +12,6 @@ namespace Bakery.Models
     public int SpecialId { get; set; }
     public double Discount { get; set; }
 
-    public virtual ICollection<ProductSpecial> { get; set; }
+    public virtual ICollection<ProductSpecial> JointEntities { get; set; }
   }
 }
