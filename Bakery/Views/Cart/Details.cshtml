@@ -1,0 +1,14 @@
+@{
+  Layout = "_Layout";
+}
+@model Bakery.Models.Products;
+
+<h2>Details</h2>
+
+<h6>@Html.DisplayNameFor(model => model.Type): @Html.DisplayFor(model => model.Type)</h6>
+<h4>@Html.DisplayNameFor(model => model.Name): @Html.DisplayFor(model => model.Name)</h4>
+<h4>@Html.DisplayNameFor(model => model.Description): @Html.DisplayFor(model => model.Description)</h4>
+<h4>@Html.DisplayNameFor(model => model.Cost): @Html.DisplayFor(model => model.Cost)</h4>
+
+<h3>Would you like to add this to your cart?</h3>
+ <input type="submit" value="Add" class="btn btn-success"><i class="bi bi-cart-plus"></i></>

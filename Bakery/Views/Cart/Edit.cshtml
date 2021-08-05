@@ -1,0 +1,21 @@
+@{
+  Layout = "_Layout";
+}
+@model Bakery.Models.Product
+
+<h2>Edit you Cart</h2>
+
+@using (Html.BeginForm())
+{
+  @Html.HiddenFor(model => model.CartId)
+
+  @Html.LabelFor(model => Product.model.Name)
+  @Html.EditorFor(model => Product.model.Name)
+
+  <input type="submit" value="Save" class="btn btn-success">Save Changes</>
+  <input type="submit" value="Delete" class="btn btn-danger">Delete</>
+}
+
+<h4>@Html.ActionLink("Drinks Menu", "Index", "Categories")</h4>
+<h4>@Html.ActionLink("Food Menu", "Index", "Categories")</h4>
+<h4>@Html.ActionLink("Merch", "Index", "Categories")</h4>
