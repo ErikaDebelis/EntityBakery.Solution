@@ -1,0 +1,19 @@
+@{
+  Layout = "_Layout";
+}
+@model Bakery.Models.Categories
+
+<h2>Mechandise Menu</h2>
+
+<ul>
+  @foreach(Product product in Model)
+  {
+    <li>
+      @Html.ActionLink($"{Product.Name}", "Details", new { id = product.ProductId })
+    </li>
+  }
+</ul>
+
+<h4>@Html.ActionLink("Drinks", "Index", "Categories")</h4>
+<h4>@Html.ActionLink("Food", "Index", "Categories")</h4>
+<h4>@Html.ActionLink("Cart", "Index", "Cart")</h4>
